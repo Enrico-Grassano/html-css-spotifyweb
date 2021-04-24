@@ -95,6 +95,7 @@ nav {
 }
 .nav-playlist {
     flex-grow: 1;
+    flex-shrink: 1;
     padding: 10px;
     overflow: auto;
 }
@@ -514,7 +515,7 @@ footer {
         font-size: 12px;
     }
     h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     .album {
         margin-bottom: 120px;
@@ -560,5 +561,8 @@ footer {
     }
     .player-bar > .player {
         width: 70%;
+    }
+    .nav-account {
+        width: 50px;
     }
 }
